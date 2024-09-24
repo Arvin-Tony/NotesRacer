@@ -19,15 +19,22 @@ const TypingGame = () => {
     }
 
     return (
-        <Form.Group controlId="textBox">
-            <Form.Label>Let's Race!</Form.Label>
-            <Form.Control
-                type="text"
-                value={text}
-                onChange={enterText}
-                placeholder="Copy-Paste/Type your notes:"
-            />
-        </Form.Group>
+        <Container>
+            <Row className="justify-content-center">
+                <Col xs={12} md={8} lg={8}>
+                    <h1 className="text-center mt-5"></h1>
+                    <Form.Group controlId="textBox">
+                        <Form.Label>Let's Race!</Form.Label>
+                        <Form.Control
+                            type="text"
+                            value={text}
+                            onChange={enterText}
+                            placeholder="Copy-Paste/Type your notes:"
+                        />
+                    </Form.Group>
+                </Col>
+            </Row>
+        </Container>
     )
 };
 
