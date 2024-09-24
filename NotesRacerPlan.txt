@@ -22,5 +22,5 @@ Home page:
 •	Once start button is pressed, countdown to race starts
 •	Race begins, user must correctly type all words to complete it
     o	Words per minute (WPM) will be displayed dynamically
-•	At finish, overall WPM and accuracy will be displayed.
-•	Button to restart or enter new prompt displays.
+•	At finish, overall WPM and accuracy will be displayed
+•	Button to restart or enter new prompt displays
